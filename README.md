@@ -1,4 +1,14 @@
-workshop-logback
-================
+# workshop-logback #
+=================
 
-workshop example logback.
+logbackライブラリを使用したサンプルアプリケーション。
+
+#### 概要
+    最近定着しつつあるログ標準logbackライブラリのサンプル。
+
+    log4jとの違いは以下のとおり結構多い。
+    - パッケージ名が変わる。
+    - ファクトリ名・ロガー名が変わる。
+    - fatalが削除、traceが追加。
+    - 上記変更の影響を受けずに（ソースコードを一切変更せずに）、[logbackライブラリへの差し替えが可能。](http://d.hatena.ne.jp/kimutansk/20121123/1353686394)
+    - log4jから離れたくない場合はblitz4j、離れてもいい場合はlogback。
